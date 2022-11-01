@@ -17,7 +17,7 @@ app.use('/static', express.static(__dirname + '/assets'));
 
 app.use('/api/planes', require('./routes/planes'));
 
-mongoose.connect('mongodb://localhost:27017').then(() => {
+mongoose.connect(process.env.MONGODB_URI).then(() => {
   app.listen(port, () => {
     console.log(`App listening on port ${port}`);
   });
