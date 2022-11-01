@@ -1,0 +1,33 @@
+.planes__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.sort {
+  height: 80px;
+  background-color: #442D85;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.sort__button {
+  font-size: 16px;
+}
+
+.planes__operation {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create_plane_btn {
+  background: linear-gradient(180deg, #FFFFFF 0%, #D9DFFF 100%);
+  border: .5px solid rgba(255, 255, 255, .5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
+  border-radius: 20px;
+  color: #000;
+  padding: 8px 12px;
+}

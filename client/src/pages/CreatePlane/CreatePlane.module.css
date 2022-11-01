@@ -1,0 +1,35 @@
+.create_plane {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: rgba(50, 61, 109, .5);
+  border: .5px solid rgba(255, 255, 255, .3);
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 50vh;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.container__backbtn {
+  display: block;
+  font-size: 16px;
+  width: 50vh;
+  margin: 20px 0;
+}
+
+.container__button {
+  padding: 10px 0;
+  text-align: center;
+}
+
